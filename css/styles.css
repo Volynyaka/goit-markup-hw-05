@@ -63,6 +63,8 @@ img {
 
 button {
   cursor: pointer;
+  font-family: inherit;
+  color: currentColor;
 }
 
 /*====Header====*/
@@ -295,7 +297,7 @@ button {
   color: var(--text);
 }
 
-/* Our team */
+/*===Our team===*/
 .team {
   background-color: var(--light);
   padding-top: 120px;
@@ -390,8 +392,8 @@ box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08), 0px 1px 1px 0px rgba(46, 47,
 
 
 
-/* Portfolio */
-/* Foto-list */
+/*===Portfolio===*/
+/*===Foto-list===*/
 
 .portfolio-section {
   padding-top: 120px;
@@ -473,7 +475,7 @@ box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08), 0px 1px 1px 0px rgba(46, 47,
 
 }
 
-/* Footer */
+/*===Footer===*/
 
 .footer-container {
 display: flex;
@@ -558,3 +560,38 @@ background-color: var(--success);
 .footer-social-icon {
   fill: var(--light);
 }
+
+/*====Modal window===*/
+
+.backdrop {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(46, 47, 66, 0.40);
+  top: 0;
+  left: 0;
+  border-radius: 4px;
+}
+
+.modal {
+width: 408px;
+height: 584px;
+background-color: var(--modal-background);
+border-radius: 4px;
+position: absolute;
+top: 50%;
+left: 50%;
+transform: translate(-50%, -50%);
+}
+
+.modal-btn {
+  border: none;
+  border-radius: 4px;
+  width: 24px;
+  height: 24px;
+  padding: 0;
+  position: absolute;
+  right: 24px;
+  top: 24px;
+}
+
