@@ -595,3 +595,10 @@ transform: translate(-50%, -50%);
   top: 24px;
 }
 
+.modal-btn:hover,
+.modal-btn:focus {
+  background-color: var(--pressed-state);
+  border: none;
+  fill: #ffffff;
+}
+
