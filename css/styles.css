@@ -636,6 +636,14 @@ padding: 72px 24px 24px 24px;
 .input-modal {
   width: 360px;
   height: 40px;
+  
+}
+
+.form-label {
+  font-size: 12px;
+  font-weight: 400px;
+  line-height: 14px;
+  letter-spacing: 0.48px;
 }
 
 
