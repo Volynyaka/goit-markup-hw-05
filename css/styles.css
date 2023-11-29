@@ -637,6 +637,8 @@ color: var(--modal-overlay);
   width: 100%;
   height: 40px;
   border-radius: 4px;
+  margin-bottom: 8px;
+  border: 1px solid;
   }
 
   
@@ -645,6 +647,7 @@ color: var(--modal-overlay);
   font-weight: 400px;
   line-height: 14px;
   letter-spacing: 0.48px;
+  margin-bottom: 4px;
   
 }
 
