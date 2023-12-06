@@ -421,7 +421,7 @@
       </div>
       </div>
     </footer>
-    <div class="backdrop">
+    <div class="backdrop is-open">
       <div class="modal">
         <button type="button" class="modal-btn">
           <svg class="modal-btn-icon" width="8" height="8">
@@ -453,10 +453,21 @@
           </div>
             <label class="form-label" for="user-comment">Comment</label>
             <div class="div-form">
-              <textarea class="textarea-form" name="Comment" placeholder="Text input"></textarea>
+              <textarea class="textarea-form" name="Comment" id="user-comment" placeholder="Text input"></textarea>
           </div>
+          <div class="checkbox-section">
+            <div>
+              <input class="checkbox" type="checkbox" name="terms" value="terms"/>
+
+            </div>
+
+            <p class="caption"> I accept the terms and conditions of the <a href="#">Privacy Policy</a></p>
+          </div>
+          <button class="hero-button" type="submit">Send</button>
           
-        
+          
+          
+         
           
         </form>
 
