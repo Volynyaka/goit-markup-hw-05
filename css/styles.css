@@ -735,7 +735,7 @@ color: var(--modal-overlay);
   color: var(--subtitle-text);
 }
 
-.checkbox-section .caption a {
+.checkbox-section .caption-link {
   color: var(--primary-brand);
   font-size: 12px;
   line-height: 1.33;
