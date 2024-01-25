@@ -697,6 +697,7 @@ transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
   width: 360px;
   height: 120px;
   resize: none;
+  display: block;
   padding: 8px 16px;
   font-size: 12px;
   line-height: 1.17;
@@ -713,6 +714,10 @@ transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
   border-color: var(--primary-brand);
 }
 
+.textarea-form::placeholder {
+  color: rgba(46, 47, 66, 0.4);
+}
+
 
 .checkbox-section {
   margin-bottom: 24px;
@@ -721,6 +726,7 @@ transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 .checkbox-section .icon-wrapper {
   display: inline-flex;
   border-radius: 2px;
+  margin-right: 8px;
   border: 1px solid rgba(46, 47, 66, 0.4);
   width: 16px;
   height: 16px;
@@ -754,6 +760,7 @@ transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 .checkbox-section .caption {
   font-size: 12px;
   line-height: 1.17;
+  display: block;
   letter-spacing: 0.48px;
   color: var(--subtitle-text);
 }
