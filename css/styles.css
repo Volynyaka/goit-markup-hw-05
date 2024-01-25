@@ -127,7 +127,7 @@ input {
   align-items: center;
 }
 .nav-link {
-  color: var(--dark)
+  color: var(--dark);
   font-weight: 500;
   line-height: 24px;
   letter-spacing: 0.32px;
@@ -140,9 +140,11 @@ input {
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
+
 .navigation-list .nav-link:hover,
 .navigation-list .nav-link:focus {
   color: var(--pressed-state);
+
 }
 
 .nav-link.active::after {
@@ -156,9 +158,12 @@ input {
   left: 0;
 }
 
+
 .navigation-list .nav-link:active {
-  color: var(--pressed-state);
+color: var(--pressed-state);
 }
+
+
 
 
 /*====address====*/
